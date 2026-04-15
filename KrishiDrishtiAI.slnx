@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/services/">
+    <Project Path="services/alert-service/alert-service.csproj" />
+    <Project Path="services/api-gateway/api-gateway.csproj" />
+    <Project Path="services/feature-engine/feature-engine.csproj" />
+    <Project Path="services/prediction-service/prediction-service.csproj" />
+    <Project Path="services/satellite-service/satellite-service.csproj" />
+    <Project Path="services/voice-service/voice-service.csproj" />
+    <Project Path="services/weather-service/weather-service.csproj" />
+  </Folder>
+</Solution>
