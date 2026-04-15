@@ -1,0 +1,77 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code (optional)
+.idea/
+.vscode/
+
+# =========================
+# Build / Logs
+# =========================
+*.log
+logs/
+*.tmp
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+secrets.json
+*.key
+
+# =========================
+# Node (future frontend)
+# =========================
+node_modules/
+dist/
+
+# =========================
+# Python (ML / AI models)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+.venv/
+venv/
+
+# =========================
+# Data control (important)
+# =========================
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Terraform / Infra (future)
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# =========================
+# Keep important files
+# =========================
+!.gitignore
